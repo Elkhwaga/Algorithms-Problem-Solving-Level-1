@@ -1,1 +1,0 @@
-sqrt(pow(diagonal, 2) - pow(side, 2))
