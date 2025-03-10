@@ -40,7 +40,7 @@
  * @param width The width of the rectangle
  * @return double The area of the rectangle
  */
-double calculateArea(double length, double width)
+double calculateRectangleArea(double length, double width)
 {
     return length * width;
 }
@@ -70,7 +70,7 @@ int main()
     double width = Math::getDimension("Enter the width of the rectangle: ");
 
     // Calculate area and perimeter
-    double area = calculateArea(length, width);
+    double area = calculateRectangleArea(length, width);
 
     // Display results
     displayResults(length, width, area);
