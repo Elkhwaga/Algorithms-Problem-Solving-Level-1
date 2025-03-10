@@ -26,7 +26,7 @@
     -- Goodbye!
 */
 
-float circleAreaByDiameter(float radius)
+float circleAreaByInscribedInSquare(float radius)
 {
     const float PI = 3.141592653589793238;
     float Area = (PI * pow(radius, 2)) / 4;
@@ -45,7 +45,7 @@ int main()
 
     float side = Input::readPositiveFloatNumber("Please enter side of the square: ");
 
-    printResult(circleAreaByDiameter(side));
+    printResult(circleAreaByInscribedInSquare(side));
 
     Display::displayGoodbyeMessage("Goodbye!");
 
